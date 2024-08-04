@@ -13,6 +13,8 @@ body {
 
 ul {
     list-style-type: none;
+    position: absolute;
+    right: 0;
 }
 
 li {
