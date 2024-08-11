@@ -23,8 +23,15 @@ nav {
 
 li {
     display: inline-block;
-    margin: 0 20px;
     font-size: larger;
+    padding: 27px 20px;
+    transition-duration: 0.2s;
+}
+
+li:hover {
+    background-color: #3B3180;
+    cursor: pointer;
+    transition-duration: 0.2s;
 }
 
 a {
@@ -35,11 +42,13 @@ a {
 header { /* set header position: relative and nav position: absolute */
     display: flex;
     flex-direction: row;
-    background-color: orangered;
+    background-color: rgba(255, 255, 255, 0.056);
+    backdrop-filter: blur(10px);
     min-height: 75px;
     align-items: center;
     position: fixed;
     width: 100%;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
 }
 
 h2 {
@@ -47,7 +56,7 @@ h2 {
 }
 
 #welcome-section {
-    background-color: grey;
+    background-color: #15161B;;
 }
 
 #front-content {
@@ -58,8 +67,17 @@ h2 {
     height: 100vh;
 }
 
-h1 {
-    font-size: 40px;
+#intro-text {
+    font-size: 50px;
+    line-height: 1.5;
+}
+
+#intro-caption {
+    font-style: italic;
+    color: #9585ff;
+    line-height: 2;
+    font-size: larger;
+    font-weight: lighter;
 }
 
 #resume-button {
@@ -83,3 +101,20 @@ h1 {
     transition-duration: 0.2s;
 }
 
+#details {
+    background-color: #3B3180;
+}
+
+#pic-myself {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.section-title {
+    display: inline-block;
+    margin: 20px;
+}
+
+#details-content {
+    margin: 0 20px;
+}
