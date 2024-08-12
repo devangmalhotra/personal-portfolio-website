@@ -145,9 +145,24 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(#e66465, #9198e5);
 }
 
 .tech-stack-icon {
-    width: 50px;
+    width: 30px;
     filter: invert(100%);
+}
+
+#tech-stack-icons {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e66465;
+}
+
+#tech-stack-icons p{
+    text-align: center;
+    line-height: 2;
 }
