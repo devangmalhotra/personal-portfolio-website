@@ -49,6 +49,7 @@ header { /* set header position: relative and nav position: absolute */
     position: fixed;
     width: 100%;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 1;
 }
 
 h2 {
@@ -148,6 +149,10 @@ h2 {
     background: linear-gradient(#e66465, #9198e5);
 }
 
+.tech-stack-icon-div img {
+    z-index: 0;
+}
+
 .tech-stack-icon {
     width: 30px;
     filter: invert(100%);
@@ -189,4 +194,20 @@ h2 {
     width: 300px;
     height: 300px;
     border-radius: 10%;
+    transition-timing-function: ease-out;
+    transition-duration: 0.2s;
+}
+
+.project-card:hover {
+    background-color: #9cabfe;
+    transition-timing-function: ease-in;
+    transition-duration: 0.2s;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h4 {
+    text-align: center;
 }
