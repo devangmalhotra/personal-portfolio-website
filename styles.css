@@ -118,7 +118,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 40px;
 }
 
 #details-content {
@@ -135,4 +135,19 @@ h2 {
 .info-text {
     margin: 0 100px 0 0;
     line-height: 1.5;
+}
+
+.tech-stack-icon-div {
+    width: 60px;
+    height: 60px;
+    border: solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech-stack-icon {
+    width: 50px;
+    filter: invert(100%);
 }
