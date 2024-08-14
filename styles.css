@@ -187,12 +187,17 @@ h2 {
 #cards {
     margin: 0 100px;
     padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
 }
 
 .project-card {
     background-color: #787fa9;
     width: 300px;
     height: 300px;
+    min-width: 289px;
     border-radius: 10%;
     transition-timing-function: ease-out;
     transition-duration: 0.2s;
@@ -250,4 +255,8 @@ h2 {
 .project-link-button:hover {
     background-color: #2a2c3a;
     transition-duration: 0.2s;
+}
+
+#contact {
+    background-color: #2B3139;
 }
