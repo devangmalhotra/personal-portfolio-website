@@ -185,7 +185,7 @@ h2 {
     background-color: #545976;
 }
 
-#cards {
+#tiles {
     margin: 0 100px;
     padding: 40px 0;
     display: flex;
@@ -194,7 +194,7 @@ h2 {
     gap: 40px;
 }
 
-.project-card {
+.project-tile {
     background-color: #787fa9;
     width: 300px;
     height: 300px;
@@ -204,7 +204,7 @@ h2 {
     transition-duration: 0.2s;
 }
 
-.project-card:hover {
+.project-tile:hover {
     background-color: #9cabfe;
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
@@ -222,7 +222,7 @@ h2 {
 .card-content p {
     text-align: center;
     margin: 20px;
-    line-height: 1.15;
+    line-height: 1.3;
 }
 
 .card-icons {
@@ -262,12 +262,12 @@ h2 {
     background-color: #2B3139;
 }
 
-.contact-button {
+.profile-link{
     font-size: 30px;
     transition-duration: 0.2s;
 }
 
-.contact-button:hover {
+.profile-link:hover {
     color: #9cabfe;
     transition-duration: 0.2s;
 }
@@ -297,7 +297,7 @@ h2 {
 }
 
 @media screen and (max-width: 950px){
-    #cards {
+    #tiles {
         flex-direction: column;
     }
 }
