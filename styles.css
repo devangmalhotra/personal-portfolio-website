@@ -260,3 +260,28 @@ h2 {
 #contact {
     background-color: #2B3139;
 }
+
+.contact-button {
+    font-size: 30px;
+    transition-duration: 0.2s;
+}
+
+.contact-button:hover {
+    color: #9cabfe;
+    transition-duration: 0.2s;
+}
+
+#contact-content {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
